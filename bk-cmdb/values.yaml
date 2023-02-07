@@ -1,14 +1,9 @@
 image:
-  repository: ccr.ccs.tencentyun.com/bk.io/cmdb-standalone  (镜像仓库地址)
+  repository: ccr.ccs.tencentyun.com/bk.io/cmdb-standalone
   pullPolicy: IfNotPresent
-  # Overrides the image tag whose default is the chart appVersion.
   tag: ""
 
 
 service:
   type: NodePort   <- 修改
-  port: 8090  (对应cmdb_webserver端口) 
-
-
-# vim Chart.yaml
-appVersion: "latest"  <- (镜像版本)
+  port: 8090
