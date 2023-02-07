@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   repository: ccr.ccs.tencentyun.com/bk.io/cmdb-standalone
-  pullPolicy: IfNotPresent
+  pullPolicy: Never
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
 
