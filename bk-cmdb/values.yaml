@@ -5,5 +5,5 @@ image:
 
 
 service:
-  type: NodePort   <- 修改
+  type: NodePort
   port: 8090
