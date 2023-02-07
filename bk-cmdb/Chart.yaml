@@ -1,1 +1,6 @@
-appVersion: "latest"
+apiVersion: v2
+appVersion: latest
+description: A Helm chart for Kubernetes
+name: bk-cmdb
+type: application
+version: 0.1.0
